@@ -22,7 +22,7 @@ int main ()
     }
     
     
-    // comparing each value in array one with all values in array 2 to get the destinct values in the first array
+    // comparing each value in array one with all values in array 2 to get the distinct values in the first array
     for (i = 0; i < 4; i++)
     {
         for (j = 0; j < 5; j++)
@@ -31,7 +31,7 @@ int main ()
             {
                 break;
             }
-            // getting the sum of the destinct values
+            // getting the sum of the distinct values
             else if ((ary1[i] != ary2[j]) && (j==4))
             {
                 sum = sum + ary1[i];
@@ -43,7 +43,7 @@ int main ()
 
     cout<<"the first sum equals "<<sum<<endl;
     
-    // comparing each value in array two with all values in array one to get the destinct values in the second array
+    // comparing each value in array two with all values in array one to get the distinct values in the second array
     for (j = 0; j < 5; j++)
     {
         for (i = 0; i< 4; i++)
@@ -54,7 +54,7 @@ int main ()
             }
             else
             {
-                // getting the sum of the destinct values
+                // getting the sum of the distinct values
                 if (i==3)
                 {
                     sum = sum + ary2[j];
