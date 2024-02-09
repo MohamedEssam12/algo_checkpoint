@@ -50,4 +50,5 @@ int main ()
     {
         cout<<"The string is not palindrome";
     }
+    
 }
